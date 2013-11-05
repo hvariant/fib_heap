@@ -30,8 +30,8 @@ void free_heap(fib_heap*);
 void insert(fib_heap*,int,void*);
 void* find_min(fib_heap*,int*,_node**);
 void delete_min(fib_heap*);
-void decrease_key(fib_heap*,_node*,int k); //@TODO
-void delete_node(fib_heap*,_node*); // depends on decrease_key
+void decrease_key(fib_heap*,_node*,int k);
+void delete_node(fib_heap*,_node*);
 
 void merge_heap(fib_heap*,fib_heap*);
 
